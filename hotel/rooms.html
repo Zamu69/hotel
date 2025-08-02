@@ -1,0 +1,92 @@
+<!-- rooms.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rooms - Hotel Zamzam</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg" style="background-color: maroon;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html">Hotel Zamzam</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="roomsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Rooms</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item active" href="rooms.html">All Rooms</a></li>
+              <li><a class="dropdown-item" href="booking.html">Book Now</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="services.html">All Services</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link text-white" href="login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="register.html">Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="hero text-center" style="background-color: beige; color: maroon; padding: 60px 20px;">
+    <h1>Our Rooms</h1>
+    <p>Comfort and luxury in every stay.</p>
+  </header>
+
+  <!-- Rooms Grid -->
+  <main class="container py-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="images/standard.jpg" class="card-img-top" alt="Standard Room">
+          <div class="card-body">
+            <h5 class="card-title text-maroon">Standard Room</h5>
+            <p class="card-text">Perfect for solo travelers or couples, featuring a queen-size bed and ensuite bathroom.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="images/deluxe.jpg" class="card-img-top" alt="Deluxe Room">
+          <div class="card-body">
+            <h5 class="card-title text-maroon">Deluxe Room</h5>
+            <p class="card-text">Spacious and elegant, with king-size bed, sitting area, and modern amenities.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="images/suite.jpg" class="card-img-top" alt="Executive Suite">
+          <div class="card-body">
+            <h5 class="card-title text-maroon">Executive Suite</h5>
+            <p class="card-text">Premium experience with separate living space, luxury furnishings, and panoramic views.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-3" style="background-color: black; color: white;">
+    <p>&copy; 2025 Hotel Zamzam. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

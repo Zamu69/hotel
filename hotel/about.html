@@ -1,0 +1,78 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Hotel Zamzam</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg" style="background-color: maroon;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html">Hotel Zamzam</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white active" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="roomsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Rooms</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="rooms.html">All Rooms</a></li>
+              <li><a class="dropdown-item" href="booking.html">Book Now</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="services.html">All Services</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link text-white" href="login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="register.html">Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center py-5" style="background-color: beige; color: maroon;">
+    <h1>About Us</h1>
+    <p>Experience tradition, comfort, and hospitality at Hotel Zamzam</p>
+  </header>
+
+  <!-- About Content -->
+  <main class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="images/hotel_front.jpg" alt="Hotel Front" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-maroon">Welcome to Hotel Zamzam</h2>
+        <p>Hotel  has been providing world-class hospitality to guests from around the world. Located in the heart of the city, our hotel offers the perfect blend of elegance, comfort, and convenience.</p>
+        <p>Whether you're here for business or leisure, our dedicated staff ensures that your stay is both memorable and enjoyable.</p>
+        <p>Enjoy our premium rooms, fine dining options, and top-notch amenities tailored to make you feel right at home.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-3" style="background-color: black; color: white;">
+    <p>&copy; 2025 Hotel Zamzam. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Validation Script Placeholder -->
+  <script>
+    // Validation script will be included in pages with forms
+  </script>
+</body>
+</html>
